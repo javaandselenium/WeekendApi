@@ -1,0 +1,16 @@
+
+Base URL
+https://api.github.com
+
+GET Operation
+https://api.github.com/repos/{owner}/{repo}
+
+
+post Operation
+https://api.github.com/user/repos
+
+Patch Operation
+https://api.github.com/repos/{owner}/{repo}
+
+Delete OPeration
+https://api.github.com/repos/{owner}/{repo}
