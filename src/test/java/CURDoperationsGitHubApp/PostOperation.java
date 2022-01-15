@@ -16,8 +16,6 @@ public void postoperation() {
 	given()
 	.contentType(ContentType.JSON)
 	.body(jobj)
-	.auth().oauth2("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")
-	
 	.when()
 	.post("https://api.github.com/user/repos")
 	
