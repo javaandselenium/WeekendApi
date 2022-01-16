@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="CURDoperationsGitHubApp.PatchOperation">
+      <class name="jacksonSeralization.Deseralization">
         <methods>
-          <include name="postOpertaion"/>
+          <include name="demo"/>
         </methods>
-      </class> <!-- CURDoperationsGitHubApp.PatchOperation -->
+      </class> <!-- jacksonSeralization.Deseralization -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
